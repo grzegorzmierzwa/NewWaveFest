@@ -29,6 +29,7 @@ export const addSeat = payload => ({ payload, type: ADD_SEAT });
 
 export const loadSeatsRequest = () => {
   return async dispatch => {
+    console.log('test');
 
     dispatch(startRequest({ name: 'LOAD_SEATS' }));
     try {
