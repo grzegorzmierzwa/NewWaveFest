@@ -8,7 +8,7 @@ const Concert = ({ performer, price, genre, day, image }) => (
     <Row noGutters>
       <Col xs="6">
         <div className="concert__image-container">
-          <img className="concert__image-container__img" src={image} alt={performer}/>
+          <img className="concert__image-container__img" src={'img/uploads/' + image} alt={performer}/>
         </div>
       </Col>
       <Col xs="6">
